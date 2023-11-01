@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result/4th Sem</title>
+    <link rel="stylesheet" href="new-page.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo-div">
+                <img class="logo" src="/vtu-logo.png" alt="">
+            </div>
+            <div >
+                <div class="kannada">ವಿಶ್ವೇಶ್ವರಯ್ಯ ತಾಂತ್ರಿಕ ವಿಶ್ವವಿದ್ಯಾಲಯ, ಬೆಳಗಾವಿ</div>
+                <div class="english">VISVESVARAYA TECHNOLOGICAL UNIVERSITY, BELEGAVI</div>
+            </div>
+        </div>
+        <div class="heading">
+            <div class="kan">ವಿ.ತಾ.ವಿ ಸಾಮಯಿಕ ಫಲಿತಾಂಶ.</div>
+            <div class="kan">VTU PROVISIONAL RESULT.</div>
+        </div>
+        <div class="head-container">
+            <div class="eng">ಜನವರಿ / ಫೆಬ್ರವರಿ - ೨೦೨೩ ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ.</div>
+            <div class="eng">January / February - 2023 EXAMINATION RESULTS.</div>
+        </div>
+        <div class="display">
+            <p class="usn">
+            DEAR STUDENT
+            </p>
+            <p class="result" onclick="displayText();">
+            </p>
+        </div>
+        <button class="back-button"> <a href="index.html">ಹಿಂದೆ ಹೋಗು/GO BACK</a></button>
+    </div>
+
+<script>
+    let para=document.querySelector(".result");
+    let result='';
+    function displayText(){
+        let random=Math.floor((Math.random()*4));
+    if(random === 1){
+        result= 'YOUR RESULT HAS BEEN WITH-HELD';
+    }
+    else if(random === 0){
+        result= 'YOU ARE NOT-ELEGIBLE';
+    }
+    else if(random === 2){
+        result= 'RESULT IS NOT AVAILABE FOR YOU';
+    }
+    else if(random === 3){
+        result= 'YOUR RESULT HAS BEEN AWAIT';
+    }
+    para.innerHTML=result;
+}
+displayText();
+
+</script>
+</body>
+</html>

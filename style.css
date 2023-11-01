@@ -1,0 +1,216 @@
+body{
+}
+.page{
+}
+.header{
+    margin-left: 20px;
+    background-color: rgba(29, 29, 29, 0.719);
+    height: 80px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 85px 680px;
+    color: white;
+
+}
+.logo{
+    width: 70px;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+.kannada{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(78, 134, 255, 0.753);
+    text-align: center;
+    padding-top: 15px;
+}
+.english{
+font-size: 15px;
+font-family:'Times New Roman', Times, serif;
+letter-spacing: 0.8px;
+text-align: center;
+padding-top: 7px;
+}
+.container{
+    margin-left: 20px;
+    background-color:white;
+    display: grid;
+    grid-template-row: 600px 100px;
+    width: 800px;
+    box-shadow: 2px 2px 10px black;
+}
+.result{
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(173, 240, 173, 0.568);
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: unset;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;    
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.picture{
+    background-color:white;
+    height:440px
+    box-shadow: 2px 2px 10px black;
+}
+.v-pic{
+    padding-top: 20px;
+    margin-left: 30px;
+    height: 450px;
+    width: 750px;
+    object-fit:contain;
+    
+}
+
+.scrollbar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border-color: rgba(97, 97, 255, 0.74);
+    border-style: solid;
+    border-width: 1px;
+    width: 760px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.head{
+    border-radius: 3px;
+    border-color: rgba(93, 93, 240, 0.281);
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(180, 179, 179, 0.849);
+    height: 60px;
+    width: 758px;
+    text-align: center;
+}
+.scroll-head1{
+    color: rgb(0, 160, 0);
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8PX
+}
+
+.scroll-head2{
+    color: rgb(0, 160, 0);
+    font-size: 16px;
+    font-family:calibri;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.scroll{
+    background-color: white;
+    height: 400px;
+    overflow: scroll;
+    
+}
+
+.footer{
+    font-size: 13.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    background-color: rgba(59, 59, 59, 0.774);
+    height: 80px;
+    width: 790px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.arrow{
+    padding-top: 5px;
+    width: 12px;
+}
+.flex{
+    display: flex;
+    flex: 1fr;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 5px;
+    row-gap: 10px;
+    
+}
+
+.first{
+    background-color: rgba(166, 205, 250, 0.575);
+    height: 35px;
+    width: 580px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-left:5px;
+    color: rgba(11, 50, 133, 0.788);
+}
+.updated{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: calibri;
+    color: rgba(41, 41, 41, 0.89);
+}
+
+.scroll-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(165, 164, 164, 0.411);
+    width: 600px;
+    color: gray;
+    border-radius: 0.1px;
+    border-width: 0.2px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+
+}
+
+.texts1{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 0.1px;
+    border-width: 0.2px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.texts2{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 0.1px;
+    border-width: 0.2px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+}
+
+.para,.para1{
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+}
+.para1{
+    color: black;
+}
+
+.new{
+    width: 25px;
+}
